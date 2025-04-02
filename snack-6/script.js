@@ -21,13 +21,11 @@ const verduraLunga=zucchine.filter((item)=>{
 })
 
 
-
 const verduraCorta=zucchine.filter((item2)=>{
-
-  if(item.length<15){
+  if(item2.length<15){
     return true
   }
   return false
 })
-console.log(verduraCorta)
 console.log(verduraLunga)
+console.log(verduraCorta)
